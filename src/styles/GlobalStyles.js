@@ -39,11 +39,12 @@ export default createGlobalStyle`
     padding: 10px 20px;
     border: 4px;
     font-weight: 700;
+    transition: all 300ms;
   }
 
   button:hover {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    transition: 300ms ease-in-out;
+    filter: brightness(95%);
   }
 
   a {
